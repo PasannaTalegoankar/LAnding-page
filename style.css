@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 1.6;
+}
+
+#Showcase{
+    background-image: url(pexels-asad-photo-maldives-3293148.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: centers;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#Showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+
+}
+
+#Showcase p{
+    font-size: 20px;
+}
+
+#Showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#Showcase .button:hover{
+    background: rgba(0, 0, 0, 0.473);
+    color: white;
+}
+
+#section-a{
+    padding: 20px;
+    background: black;
+    text-align: center;
+    
+}
